@@ -11,15 +11,15 @@ public class Main {
 
 class Product{
     public int product(int x, int y) {
-        return 0;
+        return x*y;
     }
 
     public int product(int x, int y, int z) {
-        return 1;
+        return x*y*z;
     }
 
     public double product(double x, double y) {
-        return 2;
+        return x*y;
     }
 
 }
