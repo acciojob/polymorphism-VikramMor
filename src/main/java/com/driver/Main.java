@@ -16,11 +16,11 @@ public class Main {
         }
 
     }
-    public static void main(String args[]){
+    public static void main(String[] args){
 
         Product p = new Product();
-        int resP = p.product(0,1);
-        int resP1 = p.product(0,1,2);
+        int resP = p.product(1,2);
+        int resP1 = p.product(3,1,2);
         double resP2 = p.product(1.0,2.0);
         System.out.println(resP + " " +resP1 + " "+resP2);
     }
